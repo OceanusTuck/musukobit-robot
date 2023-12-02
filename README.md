@@ -1,24 +1,15 @@
+# musukobit Extension for Microsoft MakeCode
 
-> Open this page at [https://oceanustuck.github.io/musukobit-robot/](https://oceanustuck.github.io/musukobit-robot/)
+This code provides the driver for the Musuko robot kit.
+The Musukobit robot is a learning-oriented robot controlled by a micro:bit control board. It can be commanded to move to specific coordinates and perform tasks as needed. The Musukobit robot can connect up to 4 motors and a total of 6 servos simultaneously. Additionally, it allows for the installation of additional robotic arms.
 
-## Use as Extension
+![MUSUKOBIT](https://github.com/OceanusTuck/musukobit-robot/blob/master/icon.png)
 
-This repository can be added as an **extension** in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/oceanustuck/musukobit-robot** and import
 
-## Edit this project
+## License  
+MIT  
+  
+## Supported targets  
+* for PXT/microbit  
 
-To edit this repository in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/oceanustuck/musukobit-robot** and click import
-
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
