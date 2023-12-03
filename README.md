@@ -5,6 +5,7 @@ The Musukobit robot is a learning-oriented robot controlled by a micro:bit contr
 
 ![MUSUKOBIT](icon.png)
 
+<img src="./icon.png">
 
 
 ## License  
