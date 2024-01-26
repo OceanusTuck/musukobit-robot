@@ -135,6 +135,62 @@ namespace Musuko {
     }
 
     //----------------------------------------------------------------------
+    // Robot basic
+    //----------------------------------------------------------------------
+    //% group="Robot basic"
+    //% weight=200
+    //% blockGap=8
+    //% block="Go to turn %turn"
+    export function GoToTurn(turn: number): void {
+        if (turn > 0)
+        {
+            RobotTrackLine(0, turn - 1, LineTrack.ALL_TYPE, 100, 50)
+        }
+    }
+
+    /**
+     * Turn robot to left run time in ms.
+     * @param time_turn time int ms. eg: 800
+     * @param time_fw time int ms. eg: 180
+     */
+    //% group="Robot basic"
+    //% weight=199
+    //% blockGap=8
+    //% block="Turn left %time_turn %time_fw"
+    export function Turn_left(time_turn = 800, time_fw = 180) {
+        Musuko.TurnToAngle(RobotDir.Front, time_fw, 100)
+        Musuko.TurnToAngle(RobotDir.Left, time_turn, 100)
+    }
+
+    /**
+     * Turn robot to right run time in ms.
+     * @param time_turn time int ms. eg: 800
+     * @param time_fw time int ms. eg: 180
+     */
+    //% group="Robot basic"
+    //% weight=198
+    //% blockGap=8
+    //% block="Turn right %time_turn %time_fw"
+    export function Turn_right(time_turn = 800, time_fw = 180) {
+        Musuko.TurnToAngle(RobotDir.Front, time_fw, 100)
+        Musuko.TurnToAngle(RobotDir.Right, time_turn, 100)
+    }
+
+    /**
+     * Turn robot to back run time in ms.
+     * @param time_turn time int ms. eg: 800
+     * @param time_fw time int ms. eg: 180
+     */
+    //% group="Robot basic"
+    //% weight=197
+    //% blockGap=40
+    //% block="Turn back %time_turn %time_fw"
+    export function Turn_back(time_turn = 1600, time_fw = 180) {
+        Musuko.TurnToAngle(RobotDir.Front, time_fw, 100)
+        Musuko.TurnToAngle(RobotDir.Left, time_turn, 100)
+    }
+
+    //----------------------------------------------------------------------
     // Robot
     //----------------------------------------------------------------------
     //% group="Robot"
