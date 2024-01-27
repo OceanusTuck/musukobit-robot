@@ -178,7 +178,7 @@ namespace Musuko {
 
     /**
      * Turn robot to back run time in ms.
-     * @param time_turn time int ms. eg: 800
+     * @param time_turn time int ms. eg: 1600
      * @param time_fw time int ms. eg: 180
      */
     //% group="Robot basic"
