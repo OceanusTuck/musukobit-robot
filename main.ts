@@ -1,11 +1,31 @@
 input.onButtonPressed(Button.A, function () {
-    Musuko.RobotTrackLine(
-    0,
-    1,
-    LineTrack.ALL_TYPE,
-    100,
-    50
+    basic.showLeds(`
+        . . # . .
+        . . # . .
+        # . # . #
+        . # # # .
+        . . # . .
+        `)
+    Musuko.all_motor_run(
+    50,
+    50,
+    50,
+    500
     )
-    Musuko.TurnToAngle(RobotDir.Front, 300, 100)
-    Musuko.TurnToAngle(RobotDir.Right, 1600, 100)
+    basic.pause(2000)
+    basic.showLeds(`
+        . . # . .
+        . # # # .
+        # . # . #
+        . . # . .
+        . . # . .
+        `)
+    Musuko.all_motor_run(
+    -50,
+    -50,
+    -50,
+    -50
+    )
+    basic.pause(2000)
+    Musuko.motor_stop_all()
 })
