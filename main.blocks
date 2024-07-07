@@ -4,7 +4,7 @@
         # . # . # 
         . # # # . 
         . . # . .
-        `</field><next><block type="Musuko_all_motor_run" id="wB]:N3g^HT,iOoID~rG?"><value name="speed_m1"><shadow type="math_number" id="ON#edXj~.D8i)UJ0!{@E"><field name="NUM">50</field></shadow></value><value name="speed_m2"><shadow type="math_number" id="r71|F,|tA7qbF^._VvZh"><field name="NUM">50</field></shadow></value><value name="speed_m3"><shadow type="math_number" id="VxlTl#fMWvLLB-9@T8Hf"><field name="NUM">50</field></shadow></value><value name="speed_m4"><shadow type="math_number" id="4sW-]y3RWQJz-cPHour_"><field name="NUM">500</field></shadow></value><next><block type="device_pause" id="N52!l[0oQDG(8=7n0!.X"><value name="pause"><shadow type="timePicker" id="2prRcPJgi=BN^($?Idp$"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="eH:qQ;,Y`/z*6$m8*}rT"><field name="LEDS">`
+        `</field><next><block type="Musuko_all_motor_run" id="wB]:N3g^HT,iOoID~rG?"><value name="speed_m1"><shadow type="math_number" id="ON#edXj~.D8i)UJ0!{@E"><field name="NUM">50</field></shadow></value><value name="speed_m2"><shadow type="math_number" id="r71|F,|tA7qbF^._VvZh"><field name="NUM">50</field></shadow></value><value name="speed_m3"><shadow type="math_number" id="VxlTl#fMWvLLB-9@T8Hf"><field name="NUM">50</field></shadow></value><value name="speed_m4"><shadow type="math_number" id="4sW-]y3RWQJz-cPHour_"><field name="NUM">50</field></shadow></value><next><block type="device_pause" id="N52!l[0oQDG(8=7n0!.X"><value name="pause"><shadow type="timePicker" id="2prRcPJgi=BN^($?Idp$"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="eH:qQ;,Y`/z*6$m8*}rT"><field name="LEDS">`
         . . # . . 
         . # # # . 
         # . # . # 

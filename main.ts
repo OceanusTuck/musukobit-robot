@@ -10,7 +10,7 @@ input.onButtonPressed(Button.A, function () {
     50,
     50,
     50,
-    500
+    50
     )
     basic.pause(2000)
     basic.showLeds(`

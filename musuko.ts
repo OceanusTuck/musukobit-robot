@@ -14,9 +14,9 @@ enum Motor_Ch {
 }
 
 enum Motor_Dir {
-    //% block="CW"
+    //% block="forward"
     CW = 0,
-    //% block="CCW"
+    //% block="blackward"
     CCW = 1
 }
 
